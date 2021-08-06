@@ -4,10 +4,11 @@ layout: default
 excerpt: Javascript Lessons that display the simple and sometimes weird parts of ES5, ES6, ES7 and beyond ...
 description_one: Issue, Rule, Analysis, Conclusion = IRAC
 repo: Javascript-Lessons-Project
-ver_date: 11-20-19
+ver_date: 08-05-21
 navigation_weight: 1
 categories: page
 ---
+
 {% include toc.md %}
 
 {% include irac-issue-rule-analysis-conclusion.md %}
