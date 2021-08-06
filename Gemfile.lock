@@ -7,7 +7,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -26,24 +26,30 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (1.4.3)
+    faraday (1.6.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
       faraday-net_http (~> 1.0)
       faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
     faraday-em_http (1.0.0)
     faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.1.0)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
     ffi (1.15.3)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    github-pages (214)
-      github-pages-health-check (= 1.17.0)
+    github-pages (215)
+      github-pages-health-check (= 1.17.2)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
       jekyll-coffeescript (= 1.1.1)
@@ -86,7 +92,7 @@ GEM
       nokogiri (>= 1.10.4, < 2.0)
       rouge (= 3.26.0)
       terminal-table (~> 1.4)
-    github-pages-health-check (1.17.0)
+    github-pages-health-check (1.17.2)
       addressable (~> 2.3)
       dnsruby (~> 1.60)
       octokit (~> 4.0)
@@ -211,7 +217,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.5.1)
+    listen (3.6.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -239,7 +245,7 @@ GEM
     rouge (3.26.0)
     ruby-enum (0.9.0)
       i18n
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     rubyzip (2.0.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -263,6 +269,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -271,9 +278,10 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (= 6.0.3.1)
-  github-pages (= 214)
-  github-pages-health-check (= 1.17.0)
+  github-pages (= 215)
+  github-pages-health-check (= 1.17.2)
   html-pipeline (= 2.14.0)
+  i18n (= 0.9.5)
   jekyll (= 3.9.0)
   jekyll-avatar (= 0.7.0)
   jekyll-coffeescript (= 1.1.1)
@@ -301,14 +309,15 @@ DEPENDENCIES
   kramdown-parser-gfm (= 1.1.0)
   liquid (= 4.0.3)
   minima (= 2.5.1)
-  nokogiri (>= 1.11.4)
+  nokogiri (= 1.11.7)
   rouge (= 3.26.0)
   rubyzip (= 2.0.0)
   safe_yaml (= 1.0.5)
   sass (= 3.7.4)
+  webrick (~> 1.7.0)
 
 RUBY VERSION
-   ruby 3.0.1p64
+   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.16

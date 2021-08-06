@@ -4,7 +4,7 @@ layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Javascript-Lessons-Project
-ver_date: 04-17-21
+ver_date: 08-05-21
 navigation_weight: 8
 categories: page
 ---
@@ -16,23 +16,25 @@ categories: page
 
 More to come ...
 
+## Jekyll Server
+
+**Note**. Detailed instructions on how to view this file locally using a Jekyll server are included in the accompanying `Gemfile` for the project.
+
+In short, type the following command statement from a Terminal window when set to the `docs` subdirectory.
+
+```jekyll
+jekyll serve --watch --baseurl "" -o
+```
+
 ## Last Subtitle
 
 More to come ...
 
-**Note**. The above synopsis was derived from a video lecture written, produced and performed by ...
+***
 
-`Reed Barger`: [[1](#REEDBARGER){:.red}].
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-For additional reference on the topic of `De-structuring` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
-
-For a working Internet development platform for Javascript `Closures` see `Scrimba`: [[3](#SCRIMBA){:.red}]
-
-1. {:#REEDBARGER}[Javascript: The Complete Developer, 2020](https://subscription.packtpub.com/video/web_development/9781801072847?uuid=cc36e816-6930-4834-852a-206c35a8c895){:title="Click to Review Javascript: The Complete Developer, 2020 by Reed Barger at Packt"}{:target="_blank"}
-
-2. {:#MDN}[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){:title="Click to Review the Ternary Operators section of the Mozilla Developer Network"}{:target="_blank"}
-
-3. {:#SCRIMBA}[Scrimba Javascript Developer Platform](https://www.scrimba.com){:title="Click to Review the Javascript Developer Platform at Scrimba"}{:target="_blank"}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
 
 ***
 
