@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 071121 Satellite Repo
+# Gemfile ver 033122 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -13,10 +13,12 @@ source "https://rubygems.org"
 # ruby versions["ruby"]
 #
 # ruby "2.6.3"
+# ruby "2.7.1"
 # ruby "2.7.2"
 # ruby "2.7.3"
 # ruby "3.0.1"
-ruby "3.0.2"
+# ruby "3.0.2"
+ruby "3.1.1"
 # 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
@@ -48,10 +50,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # From the global Terminal prompt, run the following command statement:
 #
-# Note. The current version of `Bundler` is: 2.2.16
-#
-# However, the working version for most of the repos here is: 1.16.1
-#
 # gem install bundler
 #
 # Note. You only need to install the 'Gem Bundler' program once.
@@ -62,15 +60,16 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # bundler --version
 #
-# Note. The current version of `Bundler` is: 2.2.23
-#
-# However, the working version for most of the repos here is: 1.16.1
+# Note. The current version of `Bundler` is: 2.3.10
 #
 # You may also run the following command from a Terminal prompt to check the location of your new 'Gem Bundler' version, as follows:
 #
 # which bundler
 #
-# The 'Gem Bundler' program will notify you via the Terminal at the next update operation ...
+# Returns; /usr/local/bin/bundler
+#
+# The 'Gem Bundler' program will notify you via the Terminal ...\
+# at the next update operation ...
 # if an upgrade to your version of the 'Gem Bundler' program is available.
 # 
 # To upgrade your version of the 'Gem Bundler' program ...
@@ -79,11 +78,11 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # or,
 # 
-# gem update bundler: 2.2.23
+# gem update bundler: 2.3.10
 #
 # or,
 #
-# gem install bundler:1.16.1
+# gem install bundler:2.3.10
 #
 # or,
 #
@@ -191,7 +190,8 @@ gem 'jekyll-docs', '3.9.0'
 #
 # The 'Gem Bundler' program will then install the 'Jekyll server' version you have indicated.
 #
-# Optionally, you may run the following command from the Terminal prompt to ensure your copy of the 'Jekyll server' is up and running.
+# Optionally, you may run the following command from the Terminal prompt ...
+# to ensure your copy of the 'Jekyll server' is up and running.
 #
 # bundle exec jekyll serve --livereload
 #
@@ -213,7 +213,9 @@ gem 'jekyll-docs', '3.9.0'
 #
 # jekyll serve --watch --baseurl "" --port 4001 -o
 #
-# Other switches can be added to trace a cache and the `bundle exec` prefix can be added to the `jekyll serve` command as above, as follows:
+# Other switches can be added to trace a cache ...
+# and the `bundle exec` prefix can be added to the `jekyll serve` command ...
+# as above, as follows:
 #
 # bundle exec jekyll serve --watch --trace --baseurl "" --port 4002 -o
 #
@@ -239,9 +241,9 @@ gem 'rubyzip', '2.0.0'
 # github-pages, 175 requires activesupport, 429
 gem 'activesupport', '6.0.3.1'
 #
-gem 'github-pages-health-check', '1.17.2'
+gem 'github-pages-health-check', '1.17.9'
 #
-gem 'github-pages', '215'
+gem 'github-pages', '225'
 # 
 # Note. The `github-markdown` dependency is no longer
 # designated at the online GitHub Pages dependency chart
@@ -264,7 +266,7 @@ gem 'jekyll-avatar', '0.7.0'
 #
 gem 'jekyll-coffeescript', '1.1.1'
 #
-gem 'jekyll-commonmark-ghpages', '0.1.6'
+gem 'jekyll-commonmark-ghpages', '0.2.0'
 #
 gem 'jekyll-default-layout', '0.1.4'
 #
@@ -273,6 +275,8 @@ gem 'jekyll-feed', '0.15.1'
 gem 'jekyll-gist', '1.5.0'
 #
 gem 'jekyll-github-metadata', '2.13.0'
+#
+gem 'jekyll-include-cache', '0.2.1'
 #
 gem 'jekyll-mentions', '1.6.0'
 #
@@ -291,14 +295,15 @@ gem 'jekyll-remote-theme', '0.4.3'
 gem 'jekyll-sass-converter', '1.5.2'
 #
 # gem 'jekyll-seo-tag', '2.6.1'
-gem 'jekyll-seo-tag', '2.7.1'
+# gem 'jekyll-seo-tag', '2.7.1'
+gem 'jekyll-seo-tag', '2.8.0'
 #
 gem 'jekyll-sitemap', '1.4.0'
 #
 gem 'jekyll-swiss', '1.0.0'
 #
 # Uncomment for all satellite repos
-gem 'jekyll-theme-cayman', '0.1.1'
+gem 'jekyll-theme-cayman', '0.2.0'
 #
 gem 'jekyll-titles-from-headings', '0.5.3'
 #
@@ -316,7 +321,8 @@ gem 'minima', '2.5.1'
 #
 # gem 'nokogiri', '1.10.10'
 # gem 'nokogiri', '>= 1.11.4'
-gem 'nokogiri', '1.11.7'
+# gem 'nokogiri', '1.11.7'
+gem 'nokogiri', '1.13.3'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
