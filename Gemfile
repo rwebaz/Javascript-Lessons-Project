@@ -77,7 +77,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # gem install bundler:2.3.10
 # 
-# gem update bundler: 2.3.10
+# gem update bundler:2.3.10
 #
 # Or,
 #
@@ -251,6 +251,11 @@ gem 'i18n', '0.9.5'
 # 
 # gem 'webrick', '1.7.0'
 gem 'webrick', '~> 1.7.0'
+#
+# Note. The `github-markdown` dependency is no longer
+# designated at the online GitHub Pages dependency chart
+# C=> https://pages.github.com/versions/
+# gem 'github-markdown'
 #
 gem 'html-pipeline', '2.14.0'
 #
