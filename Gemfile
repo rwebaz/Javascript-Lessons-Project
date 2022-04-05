@@ -12,9 +12,6 @@ source "https://rubygems.org"
 # gem 'github-pages', versions['github-pages']
 # ruby versions["ruby"]
 #
-# ruby "2.6.3"
-# ruby "2.7.1"
-# ruby "2.7.2"
 # ruby "2.7.3"
 # ruby "3.0.1"
 # ruby "3.0.2"
@@ -50,6 +47,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # From the global Terminal prompt, run the following command statement:
 #
+# Note. The current version of `Bundler` is: 2.3.10
+#
 # gem install bundler
 #
 # Note. You only need to install the 'Gem Bundler' program once.
@@ -65,7 +64,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # You may also run the following command from a Terminal prompt to check the location of your new 'Gem Bundler' version, as follows:
 #
 # which bundler
-#
+# 
 # Returns; /usr/local/bin/bundler
 #
 # The 'Gem Bundler' program will notify you via the Terminal ...\
@@ -74,19 +73,17 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # To upgrade your version of the 'Gem Bundler' program ...
 # 
-# Type the following command at a local Terminal prompt,
+# Type the following command(s) at a local Terminal prompt, as follows:
 #
-# or,
+# gem install bundler:2.3.10
 # 
 # gem update bundler: 2.3.10
 #
-# or,
+# Or,
 #
-# gem install bundler:2.3.10
+# Type the following command at a global Terminal prompt, as follows:
 #
-# or,
-#
-# # bundle update --bundler
+# bundle update --bundler
 #
 # It is not necessary to install the 'Gem Bundler' program every time you create a separate repo. 
 #
@@ -251,14 +248,9 @@ gem 'github-pages', '225'
 # gem 'github-markdown'
 #
 gem 'i18n', '0.9.5'
-#
+# 
 # gem 'webrick', '1.7.0'
 gem 'webrick', '~> 1.7.0'
-#
-# Note. The `github-markdown` dependency is no longer
-# designated at the online GitHub Pages dependency chart
-# C=> https://pages.github.com/versions/
-# gem 'github-markdown'
 #
 gem 'html-pipeline', '2.14.0'
 #
@@ -319,14 +311,12 @@ gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
-# gem 'nokogiri', '1.10.10'
-# gem 'nokogiri', '>= 1.11.4'
 # gem 'nokogiri', '1.11.7'
 gem 'nokogiri', '1.13.3'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
-#
+# 
 gem 'safe_yaml', '1.0.5'
 #
 gem 'sass', '3.7.4'
