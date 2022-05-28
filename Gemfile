@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 033122 Satellite Repo
+# Gemfile ver 052722 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -22,7 +22,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 #
 # Hello!
-#
+# 
 # This is where you manage which version of the 'Jekyll server' is used to run your GitHub Pages repo.
 #
 # The 'Gemfile' (no extension suffix) sits in the root directory of your repo.
@@ -59,15 +59,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # bundler --version
 #
-# Note. The current version of `Bundler` is: 2.3.10
-#
 # You may also run the following command from a Terminal prompt to check the location of your new 'Gem Bundler' version, as follows:
 #
 # which bundler
 # 
 # Returns; /usr/local/bin/bundler
 #
-# The 'Gem Bundler' program will notify you via the Terminal ...\
+# The 'Gem Bundler' program will notify you via the Terminal ...
 # at the next update operation ...
 # if an upgrade to your version of the 'Gem Bundler' program is available.
 # 
@@ -84,7 +82,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Type the following command at a global Terminal prompt, as follows:
 #
 # bundle update --bundler
-#
+# 
 # It is not necessary to install the 'Gem Bundler' program every time you create a separate repo. 
 #
 # To instantiate an instance of the 'Jekyll server' on your development machine ...
@@ -125,10 +123,12 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Then, comment out the following version statement to retain your superior version copy locally
 #
-gem 'jekyll', '3.9.0'
+gem 'jekyll', '3.9.2'
+# gem 'jekyll', '4.0.0'
 # gem 'jekyll', '4.2.0'
-#
+# 
 # Note. The version of 'Jekyll docs' should match the installed version of 'Jekyll' from above.
+# 
 # In other words, you should install the 'jekyll-docs' gem version = 3.6.2 to use the 'jekyll docs' command
 #
 # However, when attempting ...
@@ -145,10 +145,10 @@ gem 'jekyll', '3.9.0'
 # Once the 'Jekyll docs' program has been installed to your development machine ...
 #
 # Then, comment out the following version statement to retain your superior version copy locally
-#
-gem 'jekyll-docs', '3.9.0'
+# 
+# gem 'jekyll-docs', '3.9.0'
 # gem 'jekyll-docs', '4.0.0'
-#
+# 
 # To run 'Jekyll docs' locally ...
 #
 # Type the following command statement from the global Terminal prompt ...
@@ -186,7 +186,7 @@ gem 'jekyll-docs', '3.9.0'
 # bundle update github-pages
 #
 # The 'Gem Bundler' program will then install the 'Jekyll server' version you have indicated.
-#
+# 
 # Optionally, you may run the following command from the Terminal prompt ...
 # to ensure your copy of the 'Jekyll server' is up and running.
 #
@@ -235,29 +235,28 @@ gem 'jekyll-docs', '3.9.0'
 # github-pages, 200 requires rubyzip
 gem 'rubyzip', '2.0.0'
 #
-# github-pages, 175 requires activesupport, 429
-gem 'activesupport', '6.0.3.1'
-#
 gem 'github-pages-health-check', '1.17.9'
 #
-gem 'github-pages', '225'
+gem 'github-pages', '226'
 # 
 # Note. The `github-markdown` dependency is no longer
 # designated at the online GitHub Pages dependency chart
 # C=> https://pages.github.com/versions/
 # gem 'github-markdown'
 #
-gem 'i18n', '0.9.5'
+# gem 'i18n', '0.9.5'
+gem 'i18n', '< 2.0'
 # 
 # gem 'webrick', '1.7.0'
 gem 'webrick', '~> 1.7.0'
-#
-# Note. The `github-markdown` dependency is no longer
-# designated at the online GitHub Pages dependency chart
-# C=> https://pages.github.com/versions/
+#https://pages.github.com/versions/
 # gem 'github-markdown'
 #
-gem 'html-pipeline', '2.14.0'
+# html-pipeline, 2.14.1 requires 'activesupport'
+# gem 'activesupport', '6.0.3.1'
+gem 'activesupport', '>= 2'
+# 
+gem 'html-pipeline', '2.14.1'
 #
 gem 'jekyll-avatar', '0.7.0'
 #
@@ -310,14 +309,15 @@ gem 'kramdown-parser-gfm', '1.1.0'
 #
 # gem 'kramdown', '2.3.0'
 # gem "kramdown", ">= 2.3.1"
-gem 'kramdown', '2.3.1'
+gem 'kramdown', '2.3.2'
 #
 gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
 # gem 'nokogiri', '1.11.7'
-gem 'nokogiri', '1.13.3'
+# gem 'nokogiri', '1.13.4'
+gem 'nokogiri', '>= 1.4'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
