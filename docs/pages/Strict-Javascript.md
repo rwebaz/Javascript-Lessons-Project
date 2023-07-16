@@ -27,7 +27,7 @@ More to come ...
 <p>
     <span>Now, that works fine.</span>
     <span>But, how will the code execute in Strict Mode?</span>
-    <span>One way to find out is to transfer our code to a (<a href="../js/scripts/strict-objects.js" title="Click To Review the Original Javascript file" target="_blank">.js</a>) page and invoke Stict Mode at the top of the program.</span>
+    <span>One way to find out is to transfer our code to a (<a href="../js/scripts/strict-objects.js" title="Click To Review the Original Javascript file" target="_blank">.js</a>) page and invoke Strict Mode at the top of the program.</span>
 </p>
 
 <pre class='flex-box'>

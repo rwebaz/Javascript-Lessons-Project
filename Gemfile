@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 020223 Satellite Repo
+# Gemfile ver 071623 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -48,7 +48,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # From the global Terminal prompt, run the following command statement:
 #
-# Note. The current version of `Bundler` is: 2.4.6
+# Note. The current version of `Bundler` is: 2.4.17
 #
 # gem install bundler
 #
@@ -66,6 +66,10 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Returns; /usr/local/bin/bundler
 #
+# bundler --version
+#
+# Returns: Bundler version 2.4.17
+#
 # The 'Gem Bundler' program will notify you via the Terminal ...
 # at the next update operation ...
 # if an upgrade to your version of the 'Gem Bundler' program is available.
@@ -74,7 +78,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Type the following command(s) at a local Terminal prompt, as follows:
 # 
-# gem update bundler: 2.4.6
+# gem update bundler: 2.4.17
 # 
 # Or,
 #
@@ -216,7 +220,7 @@ gem 'jekyll', '3.9.3'
 #
 # jekyll serve --watch --baseurl "" --port 4001 -o
 #
-# Other switches can be added to trace a cache ...
+# # Other switches can be added to trace a cache ...
 # and the `bundle exec` prefix can be added to the `jekyll serve` command ...
 # as above, as follows:
 #
@@ -320,7 +324,7 @@ gem 'liquid', '4.0.4'
 #
 gem 'minima', '2.5.1'
 #
-gem 'nokogiri', '>= 1.14.1'
+gem 'nokogiri', '>= 1.15.2'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
