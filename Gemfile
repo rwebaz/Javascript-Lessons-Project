@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 071623 Satellite Repo
+# Gemfile ver 012624 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -324,7 +324,7 @@ gem 'liquid', '4.0.4'
 #
 gem 'minima', '2.5.1'
 #
-gem 'nokogiri', '>= 1.15.2'
+gem 'nokogiri', '>= 1.15.4'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
