@@ -13,7 +13,7 @@ source "https://rubygems.org"
 # gem 'github-pages', versions['github-pages']
 # ruby versions["ruby"]
 #
-# ruby "2.7.2"ß
+# ruby "2.7.2"
 # ruby "2.7.4"
 # ruby "3.0.1"
 # ruby "3.0.2"
@@ -49,7 +49,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # From the global Terminal prompt, run the following command statement:
 #
-# Note. The current version of `Bundler` is: 2.4.17
+# Note. The current version of `Bundler` is: 2.5.6
 #
 # gem install bundler
 #
@@ -69,7 +69,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # bundler --version
 #
-# Returns: Bundler version 2.4.17
+# Returns: Bundler version 2.5.6
 #
 # The 'Gem Bundler' program will notify you via the Terminal ...
 # at the next update operation ...
@@ -79,10 +79,10 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Type the following command(s) at a local Terminal prompt, as follows:
 # 
-# gem update bundler: 2.4.17
+# gem update bundler: 2.5.6
 # 
 # Or,
-#
+# 
 # Type the following command at a global Terminal prompt, as follows:
 #
 # bundle update --bundler
