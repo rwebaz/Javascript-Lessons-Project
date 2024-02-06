@@ -326,7 +326,7 @@ gem 'liquid', '4.0.4'
 gem 'minima', '2.5.1'
 #
 #gem 'nokogiri', '1.15.1
-gem 'nokogiri', '>= 1.15.4'
+gem 'nokogiri', '>= 1.16.2'
 #
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
