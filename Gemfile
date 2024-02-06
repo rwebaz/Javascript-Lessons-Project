@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 012624 Satellite Repo
+# Gemfile ver 020624 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -13,6 +13,7 @@ source "https://rubygems.org"
 # gem 'github-pages', versions['github-pages']
 # ruby versions["ruby"]
 #
+# ruby "2.7.2"ß
 # ruby "2.7.4"
 # ruby "3.0.1"
 # ruby "3.0.2"
@@ -126,6 +127,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Then, comment out the following version statement to retain your superior version copy locally
 #
+# gem 'jekyll', '3.9.0'
 gem 'jekyll', '3.9.3'
 # gem 'jekyll', '4.2.0'
 # 
@@ -220,7 +222,7 @@ gem 'jekyll', '3.9.3'
 #
 # jekyll serve --watch --baseurl "" --port 4001 -o
 #
-# # Other switches can be added to trace a cache ...
+# Other switches can be added to trace a cache ...
 # and the `bundle exec` prefix can be added to the `jekyll serve` command ...
 # as above, as follows:
 #
@@ -263,8 +265,6 @@ gem 'i18n', '< 2.0'
 # 
 # gem 'webrick', '1.7.0'
 gem 'webrick', '~> 1.7.0'
-# 
-# https://pages.github.com/versions/
 #
 # gem 'github-markdown'
 # 
@@ -317,6 +317,7 @@ gem 'jemoji', '0.12.0'
 #
 gem 'kramdown-parser-gfm', '1.1.0'
 #
+# gem 'kramdown', '2.3.0'
 # gem "kramdown", ">= 2.3.1"
 gem 'kramdown', '2.3.2'
 #
@@ -324,6 +325,7 @@ gem 'liquid', '4.0.4'
 #
 gem 'minima', '2.5.1'
 #
+#gem 'nokogiri', '1.15.1
 gem 'nokogiri', '>= 1.15.4'
 #
 # gem 'rouge', '3.23.0'
